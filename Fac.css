@@ -1,0 +1,143 @@
+
+body,html
+{   
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    overflow-x: hidden;
+    font-family:'Josefin Sans', sans-serif;
+    background-color: rgb(187, 187, 187,0.2);
+}
+
+#box1
+{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(187, 187, 187,0.2);
+    position: relative;
+}
+.head
+{
+   position: relative;
+   top: 30px;
+   left: 15%;
+}
+.head span
+{
+    margin: 0px 5px;
+    color: rgb(0, 0, 0,0.5);
+}
+.liens
+{
+    position: relative;
+    float:right;
+}
+
+.liens a
+{
+    margin: 0px 10px;
+}
+.liens img:hover
+{
+    font-size: 1px;
+    width: 35px;
+    height: 30px;
+    transition: all 0.5s ease;
+}
+
+#box2
+{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    background-color:rgb(236, 201, 26);
+}
+#box2 a
+{
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+    opacity: 0.7;
+    font-size: 19px;
+    margin: 30px 70px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+#box2 a:hover
+{
+    border-bottom: 3px solid black;
+    opacity: 1;
+    font-weight: bold;
+    font-size:20px ;
+}
+.logo
+{
+    margin:5px 40px;
+}
+#images
+{
+    width: 100%;
+    height: 600px; 
+    background-image: url("https://images.unsplash.com/photo-1497633762265-9d179a990aa6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=752&q=80");
+    background-size: cover;
+    transition: all 1.5s ease;
+    position: relative; 
+     /* background-image: url("images/cover3.png");  */
+}
+.fas
+{
+    font-size: 100px;
+    margin: 0px 50px;
+    opacity: 0.4;
+    position: relative;
+    top: 40%;
+    cursor: pointer; 
+}
+.fas:active
+{
+  opacity: 1;
+  font-size: 120px;
+  transition: all 0.3s ease;
+}
+.fas:hover
+{
+  opacity: 1;
+}
+.fa-angle-double-right
+{
+    float: right;
+}
+footer p
+{
+  text-align: center;
+  position: relative;
+  bottom: 0px;
+  left: 50%;
+  transform: translate(-50%,0%);
+}
+
+.articles
+{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    background-color:rgb(236, 201, 26);
+
+}
+.article1,.article2,.article3
+{
+   width: 20%;
+   margin: 50px;
+   padding: 40px;
+   color: white;
+   border-radius: 5px;
+   font-size: 23px;
+   font-family: 'Josefin Sans', sans-serif;
+   background-color: rgb(208,2,12,0.9);
+}
+.article1:hover,.article2:hover,.article3:hover
+{
+    width: 25%;
+    margin: 35px;
+    transition: all 0.5s ease;
+}

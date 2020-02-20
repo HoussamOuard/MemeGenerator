@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <title>The Faculty Kix</title>
+     <meta charset="UTF-8">
+     <link rel="stylesheet" href="fontawesome-free-5.12.1-web/css/all.css" > <!--load all styles -->
+     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="Fac.css">
+     <link rel="stylesheet" href="contactUS.css">
+     <link rel="stylesheet" href="createMeme.css">
+    </head>
+    <body>
+      <header>
+         <nav id="box1" > 
+            <div class="head">
+             <span> The Faculty Kix </span>
+             <img src="images/moroccoFlag.png" width="20px" height="15px">
+             <span> Morocco </span>
+            </div>
+            <div class="liens">
+                <a href="https://www.facebook.com/TheFaculty25/" target="blank"><img src="images/Facebook_icon.png" width="30px" height="25px"></a>
+                <a href="#" ><img src="images/instagram_icon.png" width="30px" height="25px"></a>
+                <a href="#" ><img src="images/twitter_icon.png" width="30px" height="25px"></a>
+            </div>
+         </nav>
+         <nav id="box2">
+            <img  class="logo" src="images/logo.png" width="180px" height="90px">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contactUS.html">Contact</a>
+            <a href="createMeme.html">Create A Meme</a>
+         </nav>
+      </header>
+     
+      <h1>Meme Generator</h1>
+<div class="all">
+      <div class="img">
+        <div id="canvasWrapper">
+        </div>
+      </div>
+
+<div class="box">
+ 
+  
+  
+  
+  <div >
+    <h3><i class="fa fa-picture-o fa-fw" aria-hidden="true"></i>Source Image</h3>
+    <div class="box">
+      <div>
+        <p>From URL</p>
+        <input id="imgURL" class="block" type="text" placeholder="Link to image" />
+        <a href="http://memeful.com/" target="_blank">Memeful.com</a>
+      </div>
+      <div>
+        <p>From Local Disk</p>
+        <input id="imgFile" type="file" accept="image/*"/>
+        <label for="imgFile" class="btn"><i class="fa fa-upload fa-fw"></i></label>
+      </div>
+    </div>
+
+
+    
+    <h3><i class="fa fa-commenting-o fa-fw" aria-hidden="true"></i>Meme Text</h3>
+    <div class="box">
+      <div>
+        <p>Top Text</p>
+        <input id="textTop" type="text" class="block" placeholder="Top text" />
+      </div>
+      <div>
+        <p>Bottom Text</p>
+        <input id="textBottom" type="text" class="block" placeholder="Bottom text" />
+      </div>
+    </div>
+
+    
+    
+    <h3><i class="fa fa-text-height fa-fw" aria-hidden="true"></i>Text Size</h3>
+    <div class="box">
+      <div>
+        <p>Top Text: <span id="textSizeTopOut">10</span></p>
+        <input id="textSizeTop" type="range" min="2" max="50" step="2" />
+      </div>
+      <div>
+        <p>Bottom Text: <span id="textSizeBottomOut">10</span></p>
+        <input id="textSizeBottom" type="range" min="2" max="50" step="2" />
+      </div>
+    </div>
+
+    
+    
+    <div class="box">
+      <div>
+        <h3><i class="fa fa-eye fa-fw" aria-hidden="true"></i>Preview Size</h3>
+        <input id="trueSize" type="checkbox"/>
+        <label for="trueSize"><span>Show true size</span></label>
+      </div>
+      
+      
+      
+      <div>
+        <h3><i class="fa fa-download fa-fw" aria-hidden="true"></i>Export</h3>
+        <p>If the button doesn't work, right-click the image and save it</p>
+        <p>If you are one mobile, download the source image and directly upload it</p>
+        <button id="export">Export!</button>
+      </div>
+
+    </div>
+
+
+  </div>
+</div>
+
+</div>
+
+      <footer>
+
+        <p> All rights reserved to Ouard Hossam © 2020 </p>
+        
+    </footer>
+    <script src="createMeme.js"></script>
+    </body>
+</html>

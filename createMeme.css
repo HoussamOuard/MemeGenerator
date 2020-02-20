@@ -1,0 +1,58 @@
+
+#meme {
+     border: 2px solid #333;
+  }
+  
+  .fullwidth {
+    width: 100%;
+    max-width: 500px;
+    max-height: 800px;
+  }
+  
+  #imgFile {
+    display: none;
+  }
+  
+  input[type='text'], input[type='range'] {
+    width: 100%;
+  }
+  
+  h3 > i.fa {
+    margin-right: .2em;
+  }
+  h1
+  {
+    font-family:'Josefin Sans', sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .box
+  {
+      width: 550px;
+      margin: 0px 40px;
+  }
+  .all
+  {
+      display: flex;
+  }
+  #canvasWrapper
+  {
+      margin: 30px;
+      
+  }
+  input
+  {
+      margin: 0px;
+  }
+ #export
+ {
+     padding: 10px;
+     border-radius: 3px;
+ }
+ .fa-upload:hover
+ {
+     font-size: 40px;
+     cursor: pointer;
+ }
